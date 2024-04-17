@@ -1,4 +1,5 @@
 import { Header } from "../../components/common/Header/Header";
+import { Sidebar } from "../../components/common/Sidebar";
 import { Grid } from "../../components/layout/Grid";
 import styles from './PetDetails.module.css'
 
@@ -8,7 +9,8 @@ export function PetDetails(){
             <div className={styles.container}>
 
             <Header showReturn={true} />
-            <h1>TEXTO TESTE</h1>
+            <Sidebar></Sidebar>
+            
             </div>
         </Grid>
     )
